@@ -1,0 +1,4 @@
+Hello Java!
+10
+true
+hello world
