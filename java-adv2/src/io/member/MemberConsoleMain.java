@@ -2,14 +2,21 @@ package io.member;
 
 import io.member.impl.FileMemberRepository;
 import io.member.impl.MemoryMemberRepository;
+import io.member.impl.ObjectMemberRepository;
 
+import java.io.CharArrayReader;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class MemberConsoleMain {
 
 //    private static final MemberRepository memberRepository = new MemoryMemberRepository();
-private static final MemberRepository memberRepository = new FileMemberRepository();
+//private static final MemberRepository memberRepository = new FileMemberRepository();
+
+    private static final MemberRepository memberRepository = new ObjectMemberRepository();
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
