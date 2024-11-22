@@ -1,5 +1,6 @@
 package programmers;
 
+import java.nio.charset.Charset;
 import java.util.Arrays;
 
 public class 삼각_달팽이 {
@@ -14,7 +15,6 @@ public class 삼각_달팽이 {
         private static final int[] dy = {1, 0, -1};
 
         public int[] solution(int n) {
-
             int[][] triangle = new int[n][n];
 
             int x = 0;
