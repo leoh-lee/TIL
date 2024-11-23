@@ -1,6 +1,5 @@
-package programmers;
+package programmers.solved.level_2;
 
-import java.nio.charset.Charset;
 import java.util.Arrays;
 
 public class 삼각_달팽이 {
